@@ -13,7 +13,6 @@ def load(filename):
     with open(filename) as file:
         lines = file.readlines()
         for line in lines[-int(sys.argv[1]):]:
-            print(line)
     return True
     
 def main():
